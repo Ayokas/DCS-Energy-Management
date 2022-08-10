@@ -6,15 +6,15 @@ Copy the `DCSEnergyManagement.lua` file into your servers `%SAVED_GAMES%\DCS.ope
 
 Use **powershell** or **CMD** to get the GUIDs for you powerplan (as they might be different).
 
-The output will look like this (currently in german, will provide in english as soon as I can but it will be obvious which values you need):
+The output will look like this:
 ```powershell
 PS C:\Users\Administrator> powercfg /L
 
-Bestehende Energieschemen (* Aktiv)
+Existing Power Schemes (* Active)
 -----------------------------------
-GUID des Energieschemas: 381b4222-f694-41f0-9685-ff5bb260df2e  (Ausbalanciert) *
-GUID des Energieschemas: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c  (Höchstleistung)
-GUID des Energieschemas: a1841308-3541-4fab-bc81-f71556f20b4a  (Energiesparmodus)
+Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced) *
+Power Scheme GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c  (High performance)
+Power Scheme GUID: a1841308-3541-4fab-bc81-f71556f20b4a  (Power saver)
 ```
 
 After that edit the configuration lines of the script:
